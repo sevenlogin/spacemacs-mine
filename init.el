@@ -111,7 +111,7 @@ values."
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
    ;; size to make separators look not too crappy.
    dotspacemacs-default-font '("Source Code Pro"
-                               :size 11
+                               :size 16
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
@@ -277,7 +277,7 @@ you should place your code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- (set-face-attribute 'default nil :height 120)
+ ;;(set-face-attribute 'default nil :height 120)
  )
 
 (setq custom-file (expand-file-name "custom.el" dotspacemacs-directory))
