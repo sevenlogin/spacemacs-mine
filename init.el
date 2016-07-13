@@ -18,12 +18,15 @@ values."
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers
    '(
+     html
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     games
      ivy  
+     emoji
      auto-completion
      better-defaults
      emacs-lisp
@@ -43,7 +46,7 @@ values."
    ;; configuration in `dotspacemacs/user-config'.
    dotspacemacs-additional-packages '(youdao-dictionary)
    ;; A list of packages and/or extensions that will not be install and loaded.
-   dotspacemacs-excluded-packages '( 
+   dotspacemacs-excluded-packages '(
                                     ;;when in vim insert mode , click 'd f d f ',it will return vim nomal mode, delete this package
                                     evil-escape
                                      )
