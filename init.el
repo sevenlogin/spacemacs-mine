@@ -49,6 +49,7 @@ values."
    dotspacemacs-excluded-packages '(
                                     ;;when in vim insert mode , click 'd f d f ',it will return vim nomal mode, delete this package
                                     evil-escape
+                                    vi-tilde-fringe
                                      )
    ;; If non-nil spacemacs will delete any orphan packages, i.e. packages that
    ;; are declared in a layer which is not a member of
@@ -262,6 +263,7 @@ This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   ;;(set-face-attribute 'default nil :family "Source Code Pro")
+  (global-linum-mode t)   
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
